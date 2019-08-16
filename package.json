@@ -1,29 +1,15 @@
  ## package.json
-
     {
-
-      "name": "sample-stock",
-
+      "name": "hello-world",
       "version": "1.0.0",
-
       "description": "",
-
-      "main": "index.js",
-
+      "main": "index.html",
       "scripts": {
-
         "test": "echo \"Error: no test specified\" && exit 1",
-
         "serve": "node server.js",
-
         "dev": "serve --port 5200"
-
       },
-
       "keywords": [],
-
       "author": "",
-
       "license": "ISC"
-
     }
