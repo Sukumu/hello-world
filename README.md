@@ -1,3 +1,9 @@
-I# hello-world
-first repository -- hello-world
-I'm Sukumu, developer, programmer and IT lover (especialy animations). I like javascript, Pyhton and any other useful, relatively easy to learn programming languages.
+# Hello-world
+
+A communications platform with JavaScript.
+
+## Getting Started
+- run npm install
+- start node server with `npm run serve`
+- start web app with `npm run dev`
+
