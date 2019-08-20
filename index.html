@@ -53,9 +53,9 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	}]
 });
 
-//$.get("https://canvasjs.com/data/gallery/javascript/netflix-stock-price.csv", getDataPointsFromCSV);
+$.get("https://canvasjs.com/data/gallery/javascript/netflix-stock-price.csv", getDataPointsFromCSV);
 
-$.get("https://query1.finance.yahoo.com/v7/finance/download/QQQ?period1=1534118400&period2=1566172800&interval=1wk&events=history&crumb=7uNBSSKjJmC", getDataPointsFromCSV);
+//$.get("https://query1.finance.yahoo.com/v7/finance/download/QQQ?period1=1534118400&period2=1566172800&interval=1wk&events=history&crumb=7uNBSSKjJmC", getDataPointsFromCSV);
 
 function getDataPointsFromCSV(csv) {
 	var csvLines = points = [];
